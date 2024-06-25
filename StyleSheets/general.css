@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	font-family: Roboto, Arial;
+	padding-top: 57px;
+	padding-left: 72px;
+	background-color: rgb(249, 249, 249);
+}
+
+p {
+	margin: 0;
+}
+
+.footer {
+	height: 200px;
+	background-color: white;
+}

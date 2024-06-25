@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Clone</title>
+  <link rel="icon" href="Icons/youtube.png">
+  <link rel="stylesheet" href="StyleSheets/videos.css">
+  <link rel="stylesheet" href="StyleSheets/general.css">
+  <link rel="stylesheet" href="StyleSheets/header.css">
+  <link rel="stylesheet" href="StyleSheets/navigation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-icon" src="Icons/hamburger-menu.svg">
+      <img class="youtube-icon" src="Icons/youtube-logo.svg">
+    </div>
+    <div class="mid-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button tooltip-container">
+        <img class="search-icon" src="Icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="search-with-voice-button tooltip-container">
+        <img class="search-with-voice" src="Icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="tooltip-container">
+        <img class="upload-icon" src="Icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="tooltip-container">
+        <img class="youtube-apps-icon" src="Icons/youtube-apps.svg">
+        <div class="tooltip">YouTube Apps</div>
+      </div>
+      <div class="tooltip-container">
+        <img class="notifications-icon" src="Icons/notifications.svg">
+        <div class="tooltip">Notifications</div>
+        <div class="notifications-pending">3</div>
+      </div>
+      <img class="user-icon" src="User-Logo/channel-profile.jpg">
+    </div>
+  </header>
+
+
+  <nav class="sidebar">
+    <div class="sidebar-container">
+      <img class="sidebar-icon" src="Icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-container">
+      <img class="sidebar-icon" src="Icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-container">
+      <img class="sidebar-icon" src="Icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-container">
+      <img class="sidebar-icon" src="Icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-container">
+      <img class="sidebar-icon" src="Icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-container">
+      <img class="sidebar-icon" src="Icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+
+  <section class="video-grid">
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        </a>
+        <div>14:20</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-1.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-1.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </a>
+          </p>
+          <p class="video-aurthor">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        </a>
+        <div>8:22</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-2.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-2.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              Try Not To Laugh Challenge #9
+            </a>
+          </p>
+          <p class="video-aurthor">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a class="video-link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+        </a>
+        <div>9:13</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-3.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-3.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" class="video-link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </a>
+          </p>
+          <p class="video-aurthor">
+            SSSniperWolf
+          </p>
+          <p class="video-stats">
+            12M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+        </a>
+        <div>22:09</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-4.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-4.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </a>
+          </p>
+          <p class="video-aurthor">
+            Veitasium
+          </p>
+          <p class="video-stats">
+            18M views &#183; 4 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+        </a>
+        <div>11:17</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-5.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-5.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </a>
+          </p>
+          <p class="video-aurthor">
+            CS Dojo
+          </p>
+          <p class="video-stats">
+            680K views &#183; 8 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+        </a>
+        <div>19:59</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-6.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-6.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              Anything You Can Fit In The Circle I'll Pay For
+            </a>
+          </p>
+          <p class="video-aurthor">
+            MrBeast
+          </p>
+          <p class="video-stats">
+            287M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+        </a>
+        <div>10:13</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-7.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-7.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+              Why Planes Don't Fly Over Tibet
+            </a>
+          </p>
+          <p class="video-aurthor">
+            RealLifeLore
+          </p>
+          <p class="video-stats">
+            8.4M views &#183; 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+        </a>
+        <div>7:12</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-8.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-8.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=lFm4EM1juls">
+              Inside The World's Biggest Passenger Plane
+            </a>
+          </p>
+          <p class="video-aurthor">
+            Tech Vision
+          </p>
+          <p class="video-stats">
+            9.1M views &#183; 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+        </a>
+        <div>13:17</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-9.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-9.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+              The SECRET to Super Human STRENGTH
+            </a>
+          </p>
+          <p class="video-aurthor">
+            THENX
+          </p>
+          <p class="video-stats">
+            23M views &#183; 5 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+        </a>
+        <div>7:53</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-10.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-10.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+              How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+            </a>
+          </p>
+          <p class="video-aurthor">
+            Business Insider
+          </p>
+          <p class="video-stats">
+            20M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+          <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+        </a>
+        <div>4:10</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-11.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-11.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+            </a>
+          </p>
+          <p class="video-aurthor">
+            Destination Tips
+          </p>
+          <p class="video-stats">
+            4.7M views &#183; 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+          <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+        </a>
+        <div>4:51</div>
+      </div>
+      <div class="video-details">
+        <div class="channel-icon-hover">
+          <img class="channel-logo" src="Channel-Logo/channel-12.jpeg">
+          <div class="channel-details">
+            <img class="channel-logo" src="Channel-Logo/channel-12.jpeg">
+            <div>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-subscribers">15M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+              What would happen if you didn't drink water? - Mia Nacamulli
+            </a>
+          </p>
+          <p class="video-aurthor">
+            TED-Ed
+          </p>
+          <p class="video-stats">
+            21M views &#183; 7 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"></footer>
+</body>
+
+</html>
